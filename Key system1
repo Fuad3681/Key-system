@@ -1,0 +1,20 @@
+print("hi")
+
+-- Library
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Mapple7777/UI-Librarys/main/UI-1/UI.lua"))()
+
+-- Create Window
+local Window = Library:Create("Key system","Devil")
+
+-- Tabs
+local Tab1 = Window:Tab("Key",true)
+
+-- Label
+Tab1:Label("Get new One in 2 days")
+
+
+
+-- Button
+Tab1:Button("type /console",function()
+    Print("Search This https://rekonise.com/subscribe-gubj9")
+end)
